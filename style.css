@@ -1,0 +1,70 @@
+
+*{
+  body: 0;
+  padding: 0;
+  background: url('bg.jpg');
+}
+
+
+#card_one, #card_two {
+    /* Add shadows to create the "card" effect */
+
+    transition: 0.3s;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.5);
+    padding: 2px 16px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.container{
+  margin-top: 300px;
+}
+
+#card_one{
+  position: absolute;
+  background: orange;
+  margin-left: 350px;
+  color: white;
+}
+
+#card_two{
+  position: absolute;
+  background: orchid;
+  margin-left: 700px;
+  color: white;
+
+}
+
+#btn{
+  color:white;
+  font-size: 20px;
+  height: 50px;
+  width: 150px;
+  background: red;
+  border-style: line;
+  border-color: white;
+  border-radius: 20px;
+  margin-top: 600px;
+  margin-left: 600px;
+
+}
+
+#btn:hover{
+  color:white;
+  font-size: 22px;
+  height: 50px;
+  width: 150px;
+  background: orange;
+  border-style: dashed;
+
+}
+
+@media only screen and (max-width: 600px) {
+  #card_one, #card_two {
+      height: 100px;
+      width: 100px;
+
+  }
+}
